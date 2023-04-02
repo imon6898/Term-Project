@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminFX.HomeAdminController">
+   <children>
+      <Hyperlink alignment="CENTER" layoutX="663.0" layoutY="47.0" onAction="#bLogIn" text="Log Out">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Hyperlink>
+      <Text layoutX="51.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hope that, You are back with a set of very interesting problems &amp; we all are going to enjoy them." wrappingWidth="604.9999876022339">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, Admin. Nice to see you back.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click on the &quot;SET CONTEST&quot; button and choose any of the 2 layouts. If you want to set a completely new">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="49.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="contest, then check the first one. If you want to load a previously held contest, then check the second option.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <MenuButton layoutX="311.0" layoutY="103.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="158.0" style="-fx-background-color: #009933;" text="SET CONTEST" textFill="WHITE">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#bContestChoice" text="Set a new contest" />
+          <MenuItem mnemonicParsing="false" text="Set a previouse contest" />
+        </items>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </MenuButton>
+   </children>
+</AnchorPane>

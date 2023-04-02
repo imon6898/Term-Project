@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminFX.HomePageController">
+   <children>
+      <Hyperlink alignment="CENTER" layoutX="663.0" layoutY="47.0" onAction="#bLogIn" text="Log Out">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Hyperlink>
+      <BorderPane layoutX="41.0" layoutY="82.0" prefHeight="39.0" prefWidth="430.0">
+         <left>
+            <MenuBar prefHeight="40.0" prefWidth="430.0" style="-fx-background-color: TRANSPARENT;" BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" style="-fx-font-size: 18;" text="HOME">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Help" />
+                        <MenuItem mnemonicParsing="false" text="Exit" />
+                     </items>
+                </Menu>
+                <Menu mnemonicParsing="false" onAction="#bLogIn" style="-fx-font-size: 18;" text="CONTESTS" />
+                <Menu mnemonicParsing="false" style="-fx-font-size: 18;" text="PROBLEMSET" />
+                  <Menu mnemonicParsing="false" style="-fx-font-size: 18;" text="SEARCH" />
+              </menus>
+            </MenuBar>
+         </left>
+      </BorderPane>
+      <Text layoutX="51.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Click on the &quot;CONTSTS&quot; menubar and join the upcoming contest." wrappingWidth="537.9999876022339">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, programmers. Welcome to our ONLINE JUDGE.  You can :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Click on the &quot;PROBLEMSET&quot; menubar and practice interesting problems from the previous contests.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Search for other user's profiles and learn their progress by clicking on the &quot;SEARCH&quot; menubar.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We believe , tomorrow belongs to Coders. So, we have come forward towards you with a tool for your programming practice and developing of excellence. Make the best use of it. Thank you very much !!!" wrappingWidth="641.203125">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

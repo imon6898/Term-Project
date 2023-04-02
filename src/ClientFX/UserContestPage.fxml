@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="mainPane" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientFX.UserContestPageController">
+   <children>
+      <Button layoutX="85.0" layoutY="79.0" mnemonicParsing="false" onAction="#showHome" text="HOME">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="161.0" layoutY="79.0" mnemonicParsing="false" onAction="#bContestPage" prefHeight="39.0" prefWidth="131.0" text="DASHBOARD">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+    <Button layoutX="407.0" layoutY="79.0" mnemonicParsing="false" onAction="#showUserStatus" text="STATUS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="286.0" layoutY="79.0" mnemonicParsing="false" onAction="#showUserStandings" prefHeight="39.0" prefWidth="121.0" text="STANDINGS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
